@@ -24,23 +24,14 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What problem does the context API help solve?
 
-The context API is used to solve the problem of prop drilling.
-
 - [ ] In your own words, describe `actions`, `reducers` and the `store` and their role in Redux. What does each piece do? Why is the store known as a 'single source of truth' in a redux application?
 
-Actions are the values of the state that the UI was to create and that passed to the reducer
-Reducers are pure functions that take actions, modify the current state to include those updated actions, and passed the updated state tree to the store
-The store is a single point of truth were all state values are contained in a state tree
-
 - [ ] What is the difference between Application state and Component state? When would be a good time to use one over the other?
-Application state is used throughout the entire Application. Component state is used only within that one component. Use Application state when the state value needs to be available to every component or multiple components within an application.
 
 - [ ] Describe `redux-thunk`, what does it allow us to do? How does it change our `action-creators`?
 
-Redux thunk is a library that allows you to create thunk functions. A thunk function is a function that is return from within another function. It allows you to dispatch multiples actions within a single action creator
-
 - [ ] What is your favorite state management system you've learned and this sprint? Please explain why!
-Context API and Redux.  Context API because it was fairly easy to grasp and Redux because it was so extensible.  
+ 
 
 ## Project Set Up
 
